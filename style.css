@@ -1,0 +1,116 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  background-color: #333333; /* Steel gray background */
+  color: #ffffff; /* Text color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Header */
+header {
+  background-color: #333333;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #ffffff;
+}
+
+/* Hero section */
+#hero {
+  background-color: #222222;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ffff00; /* Yellow CTA button */
+  color: #333333;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Sections */
+section {
+  padding: 80px 0;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+/* Contact section */
+section#contact form input,
+section#contact form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+section#contact form textarea {
+  height: 150px;
+}
+
+section#contact form button {
+  background-color: #00ffff; /* Cyan submit button */
+  color: #333333;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #333333;
+  text-align: center;
+  padding: 20px;
+}
