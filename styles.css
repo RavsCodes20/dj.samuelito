@@ -114,3 +114,16 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+/* Portfolio section */
+section#portfolio .portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
+
